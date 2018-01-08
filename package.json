@@ -1,0 +1,30 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "This is a HTML version of the landing page based on the PSD template by Andrei Clompos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "landing",
+    "page",
+    "psd"
+  ],
+  "author": "Alonso Vazquez",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "browser-sync": "^2.23.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.4",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9",
+    "run-sequence": "^2.2.1"
+  }
+}
