@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 /*!
  * Bootstrap v4.0.0-beta.3 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -6010,3 +6010,15 @@ a.text-dark:focus, a.text-dark:hover {
 .navbar-brand span {
   font-size: 1.45rem;
   font-weight: bolder; }
+
+.jumbotron.jumbotron-fluid {
+  background: url(../img/hero.jpg) no-repeat center;
+  height: 690px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700; }
