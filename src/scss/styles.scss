@@ -4,9 +4,25 @@
 // Color variables
 $teal:    #11977d;
 $black: #777777;
+$dark-gray: #2d2d2d;
 
 // Font family variables
 $font-family-sans-serif:      "Lato", sans-serif;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 3.5),
+  7: ($spacer * 4),
+  8: ($spacer * 4.5),
+  9: ($spacer * 5)
+);
 
 // Navigation
 $navbar-light-color:                $black;
@@ -18,6 +34,9 @@ $primary:         $teal;
 
 @import "bootstrap";
 
+hr{
+  border-top: 1px solid $teal;
+}
 .nav-link {
   font-weight: 300;
   text-transform: uppercase;
@@ -37,4 +56,10 @@ $primary:         $teal;
   color: $white;
   text-align: center;
   font-weight: 700;
+}
+section a {
+  text-decoration: underline;
+}
+.second-section {
+  background-color: $dark-gray;
 }
